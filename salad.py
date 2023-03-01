@@ -1,7 +1,6 @@
 from order import Order
 
-class Salad:
-    def __init__(self, dressing, topping) -> None:
-        self.dressing = dressing
-        self.topping = topping
-        super().__init__()
+class Salad(Order):
+    def __init__(self) -> None:
+        
+        super().__init__("salad", 8)

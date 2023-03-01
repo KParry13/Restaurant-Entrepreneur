@@ -1,8 +1,8 @@
 from order import Order
 
-class Pizza:
-    def __init__(self, crust, sauce, topping) -> None:
-        self.crust = crust
-        self.sauce = sauce
-        self.topping = topping
-        super().__init__()
+class Pizza(Order):
+    def __init__(self) -> None:  
+        super().__init__("pizza", 12)
+
+ 
+        

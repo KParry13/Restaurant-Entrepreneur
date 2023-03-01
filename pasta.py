@@ -1,7 +1,5 @@
 from order import Order
 
-class Pasta:
-    def __init__(self, noodle, sauce) -> None:
-        self.noodle = noodle
-        self.sauce = sauce
-        super().__init__()
+class Pasta(Order):
+    def __init__(self) -> None:
+        super().__init__("pasta", 10)

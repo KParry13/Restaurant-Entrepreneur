@@ -14,9 +14,8 @@
 # As a developer, I want to use the Singleton pattern (as shown in the Design Patterns Demo repo)
 #    to create a single instance of a Logger object inside the logger.py file 
 #    and import this instance into the Franchise class to be shared by all instantiations.
-
+from order import Order
         
-
 class Logger:
     def __init__(self, number, sales) -> None:
         self.transaction_count = number
@@ -24,4 +23,4 @@ class Logger:
 
 
     def log_transaction(self, Order, int):
-        pass
+        
