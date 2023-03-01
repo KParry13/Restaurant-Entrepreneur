@@ -10,7 +10,6 @@ class Franchise:
         self.location_number = number
         
     def place_order(self):
-        location_one =
-        location_two =
-        location_three =
+        order = input("What can I get for you today? Pizza, Pasta, or Salad").lower
+        print(f"You have chosen {order}.")
         pass

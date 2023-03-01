@@ -22,5 +22,17 @@ class Logger:
         self.daily_sales = sales
 
 
-    def log_transaction(self, Order, int):
+    def log_transaction(self, Order, number):
+        
+         
+         
+         
+         
+         
+    def write_to_file(message):
+        file = open("log.txt", "a")
+        file.write (message)
+        file.close()
+
+    write_to_file("!/n")
         
