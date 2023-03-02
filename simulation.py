@@ -19,5 +19,5 @@ class Simulation:
         store_one.place_order()
         store_two.place_order()
         store_three.place_order()
-
+        
 
