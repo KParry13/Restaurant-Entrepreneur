@@ -10,8 +10,9 @@ class Franchise:
         self.location_number = number
         
     def place_order(self):
-        order = input("Welcome to Francesco Italiano! What are you hungry for? Type '1' for pizza, '2' for pasta, '3' Salad")
+        order = input("Welcome to Francesco Italiano! What are you hungry for? Type '1' for pizza, '2' for pasta, '3' Salad\n")
         print(f"You have chosen {order}.")
+        print('')
 
         all_orders = OrderFactory.create_order(order)
         logger.log_transaction(all_orders, self.location_number)

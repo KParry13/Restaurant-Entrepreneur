@@ -10,11 +10,11 @@ class OrderFactory:
     
     @staticmethod
     def create_order(choice):
-        if choice == "pizza":
+        if choice == "1":
             return Pizza()
-        elif choice == "pasta":
+        elif choice == "2":
             return Pasta()
-        elif choice == "salad":
+        elif choice == "3":
             return Salad ()
         
     

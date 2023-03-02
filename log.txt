@@ -1,0 +1,7 @@
+TRX#1: salad at location 1 - $8. Total:$8
+TRX#2: pasta at location 2 - $10. Total:$18
+TRX#3: pizza at location 3 - $12. Total:$30
+TRX#4: pizza at location 1 - $12. Total:$42
+TRX#5: salad at location 2 - $8. Total:$50
+TRX#6: pasta at location 3 - $10. Total:$60
+TRX#1: Pasta at location 1 - $10. Total:$10
